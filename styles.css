@@ -41,7 +41,7 @@ justify-content: flex-end;
   display: none;
   width: 50px;
   height:40px;
-  background-image:url(./assets/images/icon-menu.svg);
+  background-image:url(./icon-menu.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -88,11 +88,11 @@ justify-content: flex-end;
 
 }
 .buttons_menu.active .button {
-  text-align: left;           /* Wyrównanie tekstu do lewej */
-  padding-left: 10px;         /* Dodanie odstępu od lewej */
-  width: 100%;                /* Przycisk zajmuje pełną szerokość */
-  background-color: transparent; /* Opcjonalnie przezroczyste tło */
-  border: none;               /* Usuń obramowanie przycisków */
+  text-align: left;           
+  padding-left: 10px;         
+  width: 100%;               
+  background-color: transparent;
+  border: none;               
   cursor: pointer;
   font-size:20px;
 }
@@ -100,7 +100,7 @@ justify-content: flex-end;
 
 .abstraction{
 
-  background-image: url(./assets/images/image-web-3-desktop.jpg);
+  background-image: url(./image-web-3-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   grid-area:2/1/3/3;
@@ -196,7 +196,7 @@ hr{
 }
 
 .laptop_img{
-  background-image: url(./assets/images/image-top-laptops.jpg);
+  background-image: url(./image-top-laptops.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height:100px;
@@ -217,7 +217,7 @@ hr{
 
 }
 .gaming_img{
-  background-image: url(./assets/images/image-gaming-growth.jpg);
+  background-image: url(./image-gaming-growth.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height:100px;
@@ -259,7 +259,7 @@ hr{
   color:grey;
 }
 .PC_img{
-  background-image: url(./assets/images/image-retro-pcs.jpg);
+  background-image: url(./image-retro-pcs.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height:100px;
@@ -280,9 +280,9 @@ hr{
 
 
     .grid_container {
-      grid-template-columns: 350px; /* Jedna kolumna */
-      grid-template-rows: auto; /* Dostosowanie wysokości wierszy */
-      grid-row-gap: 20px; /* Odstępy między wierszami */
+      grid-template-columns: 350px; 
+      grid-template-rows: auto; 
+      grid-row-gap: 20px; 
       padding:20px;
     }
 .intro{
@@ -304,7 +304,7 @@ hr{
 
     }
     .buttons_menu.active .icon_close {
-  display: block; /* Pokaż krzyżyk w menu mobilnym */
+  display: block; 
 }
 
     .abstraction {
@@ -338,15 +338,15 @@ hr{
       grid-area: auto;
       display: flex;
       justify-content: space-between;
-      flex-direction: row; /* Obrazek i tekst w jednym wierszu */
-      gap: 15px; /* Odstęp między obrazkiem a tekstem */
+      flex-direction: row; 
+      gap: 15px;
 
     }
 
     .laptop_img,
     .gaming_img,
     .PC_img {
-      height: 100px; /* Dostosuj wysokość miniatur */
+      height: 100px;
       width: 80px;
     }
 
